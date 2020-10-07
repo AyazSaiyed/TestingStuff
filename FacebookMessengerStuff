@@ -1,0 +1,396 @@
+{
+ "facebook":{
+  "attachment":{
+     "type":"template",
+     "payload":{
+        "template_type":"generic",
+        "elements":[
+           {
+              "title":"Rome",
+              "image_url":"http://yourguidetoitaly.com/slowitaly/wp-content/uploads/2017/11/rome-2.jpg",
+             
+              "buttons":[
+                 {
+          "type":"postback",
+                    "title":"Rome",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 },
+                 {
+                    "type":"postback",
+                    "title":"Nearby Rome",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 }
+              ]
+           },
+               {
+              "title":"Venice",
+              "image_url":"http://yourguidetoitaly.com/slowitaly/wp-content/uploads/2017/12/venice-rialto-bridge-by-night.jpg",
+              "subtitle":"",
+             
+              "buttons":[
+                 {
+                    "type":"postback",
+                    "title":"Venice",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 },
+                 {
+                    "type":"postback",
+                    "title":"Nearby Venice",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 }
+              ]
+           },
+               {
+              "title":"Florence",
+              "image_url":"http://yourguidetoitaly.com/slowitaly/wp-content/uploads/2017/11/florence-b.jpg",
+              "subtitle":"",
+             
+              "buttons":[
+                 {
+                    "type":"postback",
+                    "title":"Florence",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 },
+                 {
+                    "type":"postback",
+                    "title":"Nearby Florence",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 }
+              ]
+           },
+          {
+              "title":"Milan",
+              "image_url":"http://yourguidetoitaly.com/slowitaly/wp-content/uploads/2017/12/milan-piazza-del-duomo.jpg",
+              "subtitle":"",
+             
+              "buttons":[
+                 {
+                    "type":"postback",
+                    "title":"Milan",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 },
+                 {
+                    "type":"postback",
+                    "title":"Nearby Milan",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 }
+              ]
+           }
+        ]
+     }
+  }
+ }
+ }
+
+
+
+
+ ---------------
+
+
+
+{
+ "facebook":{
+  "attachment":{
+     "type":"template",
+     "payload":{
+        "template_type":"generic",
+        "elements":[
+           {
+              "title":"Welcome!",
+              "image_url":"https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png",
+              "default_action":{
+                 "type":"web_url",
+                 "url":"https://www.google.com/",
+                 "webview_height_ratio":"tall"
+              },
+              "buttons":[
+                 {
+                    "type":"web_url",
+                    "url":"https://www.google.com/",
+                    "title":"View Website"
+
+                 },
+                 {
+                    "type":"postback",
+                    "title":"Start Chatting",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 }
+              ]
+           },
+               {
+              "title":"Welcome!",
+              "image_url":"https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png",
+              "subtitle":"We have the right hat for everyone.",
+              "default_action":{
+                 "type":"web_url",
+                 "url":"https://www.google.com/",
+                 "webview_height_ratio":"tall"
+              },
+              "buttons":[
+                 {
+                    "type":"web_url",
+                    "url":"https://www.google.com/",
+                    "title":"View Website"
+                 },
+                 {
+                    "type":"postback",
+                    "title":"Start Chatting",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                 }
+              ]
+           },
+               {
+              "title":"Welcome!",
+              "image_url":"https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png",
+              "subtitle":"We have the right hat for everyone.",
+              "default_action":{
+                 "type":"web_url",
+                 "url":"https://www.google.com/",
+                 "webview_height_ratio":"tall"
+              },
+              "buttons":[
+                 {
+                    "type":"web_url",
+                    "url":"https://www.google.com/",
+                    "title":"View Website"
+                 },
+                 {
+                    "type":"postback",
+                    "title":"Start Chatting",
+                    "payload":"DEVELOPER_DEFINED_PAYLOAD"
+                   }
+                ]
+             }
+          ]
+       }
+    }
+   }
+   }
+
+ -----
+
+
+ https://stackoverflow.com/questions/56513464/welcome-message-with-user-first-name-using-dialog-flow-and-facebook-messenger
+
+
+
+ for name welcome 
+
+
+ -------
+
+
+ m.me/102162374831014
+
+ ---
+
+ Privacy Policy - https://www.privacypolicygenerator.info/live.php?token=0gfCiRjZPjqd8HzOw2ZwyYJamuaWoKGs
+
+
+ ----
+
+
+#buttons with card
+
+{
+ "facebook":{
+  "attachment":{
+     "type":"template",
+     "payload":{
+        "template_type":"generic",
+        "elements":[
+          {
+              "title":"Please accept the privacy policy to continue",
+              "image_url":"https://getterms.io/img/bg-price-1.png",
+              "subtitle":"Our Privacy Policy",
+              "default_action":{
+                 "type":"web_url",
+                 "url":"https://www.privacypolicygenerator.info/live.php?token=0gfCiRjZPjqd8HzOw2ZwyYJamuaWoKGs",
+                 "webview_height_ratio":"tall"
+              },
+              "buttons":[
+                 {
+                    "type":"postback",
+                    "title":"I agree"
+                    "payload":"I agree"
+
+                 },
+                 {
+                    "type":"postback",
+                    "title":"I don't agree"
+                    "payload":"I don't agree"
+                 }
+              ]
+           }
+        ]
+     }
+  }
+ }
+ }
+
+
+ -----
+
+
+
+#Resaurants 
+
+
+{
+ "facebook":{
+  "attachment":{
+     "type":"template",
+     "payload":{
+        "template_type":"generic",
+        "elements":[
+           {
+              "title":"officinedelriso",
+              "image_url":"https://www.conoscounposto.com/wp-content/uploads/2018/12/Officina-Del-Riso_Ristorante_Milano-1.jpg",
+              "default_action":{
+                 "type":"web_url",
+                 "url":"https://officinedelriso.com/menu/",
+                 "webview_height_ratio":"tall"
+              },
+              "buttons":[
+                 {
+                    "type":"web_url",
+                    "url":"https://officinedelriso.com/",
+                    "title":"View Website"
+
+                 },
+                 {
+                    "type":"web_url",
+                    "url":"https://officinedelriso.com/menu",
+                    "title":"Order Food"
+                 }
+              ]
+           },
+           {
+              "title":"Seta",
+              "image_url":"https://photos.mandarinoriental.com/is/image/MandarinOriental/milan-fine-dining-seta-dining-room?wid=2880&hei=1414&fmt=jpeg&crop=387,859,3982,1955&qlt=75,0&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&iccEmbed=0&printRes=72&fit=crop",
+              "subtitle":"We have the right hat for everyone.",
+              "default_action":{
+                 "type":"web_url",
+                 "url":"https://www.mandarinoriental.com/milan/la-scala/fine-dining/restaurants/italian-cuisine/seta/menu",
+                 "webview_height_ratio":"tall"
+              },
+              "buttons":[
+                 {
+                    "type":"View Website",
+                    "url":"https://www.mandarinoriental.com/milan/la-scala/fine-dining/restaurants/italian-cuisine/seta/",
+                    "title":"View Website"
+                 },
+                 {
+                    "type":"Order Food",
+                    "url":"https://www.mandarinoriental.com/milan/la-scala/fine-dining/restaurants/italian-cuisine/seta/menu",
+                    "title":"View Website"
+                 }
+              ]
+           }
+       ]
+     }
+  }
+ }
+ }
+
+
+
+Process for WebView - 
+
+
+https://blog.messengerdevelopers.com/using-the-webview-to-create-richer-bot-to-user-interactions-ed8a789523c6
+
+
+curl -X POST -H "Content-Type: application/json" -d '{
+  "whitelisted_domains":[
+    "http://127.0.0.1:8000/",
+  ]
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAJxVO9CDNQBAFHw70ScBJtLU7mOXZCM9TU63GxYeTFws6pHzz1eO5MLhRmZBjXZAoUNABUog4XEQIm9aytCQvHLrQN60cbKyDgWeQIWoEkgB1Ero18ZBTLFYY960zZAxrENGtcssylaEfZAZCjGSQ9cgovSLfuZBBwvFCxgzCTGOEZAzX3i96f17"
+
+
+
+{
+  "facebook": {
+     "attachment":{
+     "type":"template",
+     "payload":{
+            "template_type": "button",
+            "text": "Okay, Please select the items to order",
+              "buttons":[
+                 {
+                    "type":"web_url",
+                    "url":"http://127.0.0.1:8000/options/",
+                    "title":"View Website",
+                    "webview_height_ratio": "compact",
+                    "messenger_extensions": "false"
+                    }
+              ]
+         }
+      }
+    }
+  }
+
+-------
+
+// OPENING WEBVIEW //
+
+{
+  "facebook": {
+    "attachment": {
+      "payload": {
+        "text": "Please select the items to order",
+        "buttons": [
+          {
+            "messenger_extensions": "false",
+            "webview_height_ratio": "tall",
+            "url": "https://fdc174e6.ngrok.io/options",
+            "type": "web_url",
+            "title": "Open Menu"
+          }
+        ],
+        "template_type": "button"
+      },
+      "type": "template"
+    }
+  }
+}
+
+
+
+
+https://developers.facebook.com/docs/messenger-platform/webview/extensions
+
+https://github.com/fbsamples
+https://developers.facebook.com/docs/messenger-platform/webview/extensions
+
+https://stackoverflow.com/questions/37538127/date-picker-card-for-facebook-messenger-bot
+
+https://stackoverflow.com/questions/45923927/send-message-back-from-facebook-webview-to-bot?noredirect=1&lq=1
+
+https://docs.rundexter.com/platforms/facebook/fb-webviews/
+
+
+
+
+https://github.com/fbsamples/messenger-bot-samples/blob/master/chat-extensions/views/index.ejs
+
+
+https://github.com/fbsamples/messenger-bot-samples/issues/26
+
+
+
+
+Step 1 - m.me/100128951701672. ( click the link to open messenger bot )
+Step 2 - Tester user id and passwords are 
+
+( username - tester of chatordina )
+( password - chatordinatester )
+
+Step 3 - Type message "hi" , to start the conversation. Accept the policiy and all goes well.
+
+Step 4 - When you will select the city and type address , than it will list the restaurants and when click on the order food, it will open menu as webview.
+
+
+
+
