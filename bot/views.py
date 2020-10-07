@@ -1,16 +1,5 @@
 # ------------------------------ Developer - Ayaz Saiyed M.
-# ----------------- Final Release July,2020
-# ------------- GasLeadGeneration
-
-# https://consumerbenefit.pythonanywhere.com
-
-# https://www.privacypolicygenerator.info/download.php?lang=en&token=CY80vaIyBrz4V2hqWOETg2aHVa6rhgur#
-
-
-#AppID - 653796138509883
-#MessengerID - m.me/107539167624388
-    # fb.me/consumerbenefit 
-    # send your Page messages at m.me/consumerbenefit.
+# --------------- September 2020
 
 from django.shortcuts import render
 from django.http import HttpResponse
@@ -39,12 +28,7 @@ from datetime import datetime
 def homepage(request):
     return render(request,'./bot/index.html')
 
-# token = 'EAAJxVO9CDNQBAFHw70ScBJtLU7mOXZCM9TU63GxYeTFws6pHzz1eO5MLhRmZBjXZAoUNABUog4XEQIm9aytCQvHLrQN60cbKyDgWeQIWoEkgB1Ero18ZBTLFYY960zZAxrENGtcssylaEfZAZCjGSQ9cgovSLfuZBBwvFCxgzCTGOEZAzX3i96f17'
 
-# GasLeadFacebookPageToken 
-# token = 'EAAKFRRsMxo4BADmxqtuYE2pSFB4jOmyF6Cq4atEFCpTnSOEdGdvPNIXZAnZB6ZA4gs3TgF154QTSh1yxhTCuIQiHq0ZBBwexdL3mZCZAiuhkDQMwCZCqSZCBkXi5ZAVQPfHmbvZATTpMluDd8lm8AUZCl2vpM3JJVUZBvwZBZCyMoQxWVDsLeIGcfKDczRjRXMeFjx30cZD'
-
-# graph = facebook.GraphAPI(access_token=token, version = 2.8)
 
 @csrf_exempt
 def index_function(request):
