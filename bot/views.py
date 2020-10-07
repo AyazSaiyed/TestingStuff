@@ -10,7 +10,6 @@ from django.http import HttpResponse, JsonResponse
 from library.df_response_lib import *
 from library.facebook_template_lib import *
 import json
-import smtplib 
 import requests
 import facebook
 import time
