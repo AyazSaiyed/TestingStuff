@@ -1,3 +1,0 @@
-web: gunicorn django_sample.wsgi
-
-clock: python manage.py runscript update_yesterday
