@@ -11,7 +11,7 @@ sheet = workbook.active
 
 # Let's create some sample sales data
 rows = [
-			[" Nombre del cliente "," Problema del cliente "," Correo electrónico "]
+			[" Nombre del cliente "," Problema del cliente "," Correo electrónico "," fecha "]
        ]
 
 
