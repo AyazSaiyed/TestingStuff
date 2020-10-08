@@ -115,9 +115,9 @@ def index_function(request):
                 #     # length = max(len("fewopfewpfrewprjkeddwioprfdsfsdfdsffsdfsdsfdsfdsfdsfdsfjewprjkeddwioprfdsfsdfdsffsdfsdsfdsfdsfdsfdsfjewprjkeddwioprfdsfsdfdsffsdfsdsfdsfdsfdsfdsfjewprjkeddwioprfdsfsdfdsffsdfsdsfdsfdsfdsfdsfjewpfdssdsdasdadrwpfrjipewr") for cell in column_cells)
                 #     sheet.column_dimensions[column_cells[0].column_letter].width = int(20)
 
-                for column_cells in sheet.columns:
-                    length = max(len(cell.value) for cell in column_cells)
-                    sheet.column_dimensions[column_cells[0].column_letter].width = length
+                # for column_cells in sheet.columns:
+                #     length = max(len(cell.value) for cell in column_cells)
+                #     sheet.column_dimensions[column_cells[0].column_letter].width = length
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
                 print(" Data Saved ")
                 print(" Email Has Been Sent ")
@@ -177,9 +177,9 @@ def index_function(request):
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
 
-                for column_cells in sheet.columns:
-                    length = max(len(cell.value) for cell in column_cells)
-                    sheet.column_dimensions[column_cells[0].column_letter].width = length
+                # for column_cells in sheet.columns:
+                #     length = max(len(cell.value) for cell in column_cells)
+                #     sheet.column_dimensions[column_cells[0].column_letter].width = length
 
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
@@ -236,9 +236,9 @@ def index_function(request):
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
 
-                for column_cells in sheet.columns:
-                    length = max(len(cell.value) for cell in column_cells)
-                    sheet.column_dimensions[column_cells[0].column_letter].width = length
+                # for column_cells in sheet.columns:
+                #     length = max(len(cell.value) for cell in column_cells)
+                #     sheet.column_dimensions[column_cells[0].column_letter].width = length
 
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
@@ -296,9 +296,9 @@ def index_function(request):
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
 
-                for column_cells in sheet.columns:
-                    length = max(len(cell.value) for cell in column_cells)
-                    sheet.column_dimensions[column_cells[0].column_letter].width = length
+                # for column_cells in sheet.columns:
+                #     length = max(len(cell.value) for cell in column_cells)
+                #     sheet.column_dimensions[column_cells[0].column_letter].width = length
 
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
@@ -361,9 +361,9 @@ def index_function(request):
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
 
-                for column_cells in sheet.columns:
-                    length = max(len(cell.value) for cell in column_cells)
-                    sheet.column_dimensions[column_cells[0].column_letter].width = length
+                # for column_cells in sheet.columns:
+                #     length = max(len(cell.value) for cell in column_cells)
+                #     sheet.column_dimensions[column_cells[0].column_letter].width = length
 
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
@@ -422,9 +422,9 @@ def index_function(request):
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
 
 
-                for column_cells in sheet.columns:
-                    length = max(len(cell.value) for cell in column_cells)
-                    sheet.column_dimensions[column_cells[0].column_letter].width = length
+                # for column_cells in sheet.columns:
+                #     length = max(len(cell.value) for cell in column_cells)
+                #     sheet.column_dimensions[column_cells[0].column_letter].width = length
 
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
@@ -485,9 +485,9 @@ def index_function(request):
 
                 workbook.save(filename="SoporteMoreliaCustomers.xlsx")
 
-                for column_cells in sheet.columns:
-                    length = max(len(cell.value) for cell in column_cells)
-                    sheet.column_dimensions[column_cells[0].column_letter].width = length
+                # for column_cells in sheet.columns:
+                #     length = max(len(cell.value) for cell in column_cells)
+                #     sheet.column_dimensions[column_cells[0].column_letter].width = length
 
 
 
